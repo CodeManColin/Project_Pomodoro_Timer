@@ -5,6 +5,7 @@ import Pomodoro from "./pomodoro/Pomodoro";
 
 function App() {
   return (
+    <>
     <div className="App">
       <header className="App-header container">
         <h1>Pomodoro Timer</h1>
@@ -13,6 +14,7 @@ function App() {
         <Pomodoro />
       </div>
     </div>
+    </>
   );
 }
 
